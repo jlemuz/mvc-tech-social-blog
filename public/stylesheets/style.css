@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+
 }
 
 body, html {
@@ -8,7 +9,8 @@ body, html {
   margin: 0;
   font-family: sans-serif;
   color: #333;
-  background-color: #d0ffcc;
+  background-color: #d0ffcc !important;
+
 }
 
 a {
@@ -79,20 +81,44 @@ form label {
 }
 
 header {
-  border-bottom: 1px solid #ccc;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 1%;
+  background-color: #000000;
+  color: #d0ffcc;
+
+}
+
+#title{
+  background-color: #d0ffcc;
+  width: 30%;
+  text-align: center;
+}
+
+#top{
+  background-color: #000000;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 header h1 {
   font-size: 1em;
 }
 
+h1{
+  background-color: #000000;
+  margin-left: 20px;
+
+
+}
+
 main {
   flex: 1;
   padding: 2% 4%;
+  background-color: #d0ffcc;
+
+  
 }
 
 .btn-no-style {

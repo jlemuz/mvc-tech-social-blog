@@ -2,8 +2,9 @@
   {{#each posts as |post|}}
   <li>
   <div class="card" style="width: 100%;">
-  <div class="card-header">
+  <div class="card-header card text-white bg-dark mb-3">
          {{ post.title}}
+         <div>Posted  by {{user.username}} on {{format_date created_at}}</div>
   </div>
   <ul class="list-group list-group-flush">
     <li class="list-group-item">{{ post.post_url}}</li>
