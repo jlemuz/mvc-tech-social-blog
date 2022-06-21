@@ -1,0 +1,15 @@
+<ol class="post-list">
+  {{#each posts as |post|}}
+  <li>
+  <div class="card" style="width: 100%;">
+  <div class="card-header">
+         {{ post.title}}
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">{{ post.post_url}}</li>
+  </ul>
+</div>
+
+    </li>
+  {{/each}}
+</ol>
